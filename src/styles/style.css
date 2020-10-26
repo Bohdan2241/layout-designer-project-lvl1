@@ -1,1 +1,64 @@
-/** CSS STYLE **/
+/* variables */
+
+:root {
+  --white: #fff;
+  --bgcLight: #f5f4f0;
+  --primary: #fe8a02;
+  --text: #2a2626;
+  --primaryDark: #42413c;
+  --bgcDark: #b09a81;
+  --secondary: #908d8b;
+  --blue: #1085c5;
+}
+
+/* /variables */
+
+/* commons */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+
+  background-color: #e5e5e5;
+}
+
+.section-inner {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* /commons */
+
+/* titles */
+
+h1,
+h2,
+h3 {
+  color: #2a2626;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+/* /titles */
