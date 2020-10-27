@@ -1,0 +1,13 @@
+/* fonts */
+
+@font-face {
+  font-family: "Neucha";
+  src: url("../fonts/Neucha/Neucha-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+/* /fonts */
