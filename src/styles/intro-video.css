@@ -4,6 +4,12 @@
   text-align: center;
 }
 
+.intro-video .section-inner {
+  bottom: -100px;
+
+  padding: 0;
+}
+
 .intro-video .section-title {
   margin-bottom: 30px;
 }
@@ -15,6 +21,9 @@
 }
 
 .video {
+  display: block;
+  margin: 0 auto;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
