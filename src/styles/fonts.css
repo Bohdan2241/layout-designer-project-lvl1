@@ -7,7 +7,10 @@
 
 @font-face {
   font-family: "Open-sans";
-  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+  src:
+    url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"),
+    url("../fonts/Open_Sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/Open_Sans/opensans-regular-webfont.woff") format("woff");
 }
 
 /* /fonts */
