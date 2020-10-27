@@ -63,16 +63,18 @@ h3 {
   line-height: 1.2em;
 }
 
-h1 {
+.header .title {
   font-size: 72px;
 }
 
-h2 {
+.section-title {
   font-size: 60px;
 }
 
 h3 {
   font-size: 34px;
 }
+
+
 
 /* /commons */
