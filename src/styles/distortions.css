@@ -8,13 +8,13 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 200px;
+  padding-bottom: 80px;
 }
 
 .distortions .item {
   width: 350px;
   margin-right: 30px;
-
-  /* padding: 24px; */
+  margin-bottom: 20px;
 }
 
 .distortions-title {
@@ -38,9 +38,9 @@
   background-color: var(--primary);
 }
 
-.distortions .item:nth-child(-n+3) {
+/* .distortions .item {
   margin-bottom: 20px;
-}
+} */
 
 .distortions .item:nth-child(3n) {
   margin-right: 0;
