@@ -47,6 +47,7 @@
 }
 
 .distortions .card-num {
+  display: block;
   margin-bottom: 40px;
 
   color: var(--primaryDark);
