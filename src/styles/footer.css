@@ -21,7 +21,7 @@
   justify-content: space-between;
   padding: 40px 50px;
 
-  background-color: var(--primaryDark);
+  background-color: var(--primary-dark);
 }
 
 .news-title {
@@ -71,7 +71,7 @@
 }
 
 .email-btn:hover {
-  background-color: var(--hoverBtn);
+  background-color: var(--dark-orange);
 }
 
 .email-btn::before {

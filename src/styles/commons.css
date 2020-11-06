@@ -69,11 +69,11 @@ body {
 }
 
 .light-theme-bg {
-  background-color: var(--bgcLight);
+  background-color: var(--light);
 }
 
 .dark-theme-bg {
-  background-color: var(--bgcDark);
+  background-color: var(--brownt);
 }
 
 .light-theme-name {
@@ -160,11 +160,11 @@ p {
 .light-theme-subtitle {
   color: var(--white);
 
-  background-color: var(--bgcDark);
+  background-color: var(--brown);
 }
 
 .dark-theme-subtitle {
-  color: var(--primaryDark);
+  color: var(--primary-dark);
 
   background-color: var(--white);
 }

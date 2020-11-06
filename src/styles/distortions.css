@@ -1,7 +1,7 @@
 /* distortions */
 
 .distortions {
-  background-color: var(--primaryDark);
+  background-color: var(--primary-dark);
 }
 
 .distortions .section-inner {
@@ -33,7 +33,7 @@
 
   text-decoration: none;
 
-  background-color: var(--bgcLight);
+  background-color: var(--light);
 
   transition: 0.2s;
 }
@@ -46,7 +46,7 @@
   display: block;
   margin-bottom: 40px;
 
-  color: var(--primaryDark);
+  color: var(--primary-dark);
   font-size: 64px;
   font-family: var(--title-font);
   line-height: 1;

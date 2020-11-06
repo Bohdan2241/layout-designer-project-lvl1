@@ -44,7 +44,7 @@
 }
 
 .header-btn:hover {
-  background-color: var(--hoverBtn);
+  background-color: var(--dark-orange);
 }
 
 /* /header */

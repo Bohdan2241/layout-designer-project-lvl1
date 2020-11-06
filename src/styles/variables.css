@@ -2,14 +2,14 @@
 
 :root {
   --white: #fff;
-  --bgcLight: #f5f4f0;
+  --light: #f5f4f0;
   --primary: #fe8a02;
   --text: #2a2626;
-  --primaryDark: #42413c;
-  --bgcDark: #b09a81;
+  --primary-dark: #42413c;
+  --brown: #b09a81;
   --secondary: #908d8b;
   --blue: #1085c5;
-  --hoverBtn: #ea7600;
+  --dark-orange: #ea7600;
   --main-font: "Open-sans", sans-serif;
   --title-font: "Neucha", cursive;
   --shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
