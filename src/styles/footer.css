@@ -1,6 +1,6 @@
 /* footer */
 
-.footer .info {
+.info {
   margin-top: 60px;
 
   font-size: 14px;
@@ -12,11 +12,11 @@
   color: var(--blue);
 }
 
-.info .wrap-link {
+.wrap-link {
   margin-top: 16px;
 }
 
-.footer .news {
+.news {
   display: flex;
   justify-content: space-between;
   padding: 40px 50px;
@@ -24,7 +24,7 @@
   background-color: var(--primaryDark);
 }
 
-.news .news-title {
+.news-title {
   color: var(--white);
   font-size: 36px;
   font-family: var(--title-font);
@@ -46,8 +46,7 @@
   position: relative;
 
   width: 394px;
-  height: 50px;
-  padding: 15px;
+  padding: 13px 15px;
 
   font-size: 18px;
 
@@ -61,12 +60,8 @@
 }
 
 .email-btn {
-  /* position: relative; */
-
   width: 70px;
   height: 50px;
-
-  /* padding: 14px 26px; */
 
   background-color: var(--primary);
   border: none;
@@ -80,8 +75,6 @@
 }
 
 .email-btn::before {
-  /* position: relative; */
-
   display: block;
   height: 100%;
 

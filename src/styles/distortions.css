@@ -11,10 +11,14 @@
   padding-bottom: 80px;
 }
 
-.distortions .item {
+.item {
   width: 350px;
   margin-right: 30px;
   margin-bottom: 20px;
+}
+
+.item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .distortions-title {
@@ -24,7 +28,7 @@
   line-height: 62px;
 }
 
-.distortions .card {
+.card {
   padding: 24px;
 
   text-decoration: none;
@@ -34,19 +38,11 @@
   transition: 0.2s;
 }
 
-.distortions .card:hover {
+.card:hover {
   background-color: var(--primary);
 }
 
-/* .distortions .item {
-  margin-bottom: 20px;
-} */
-
-.distortions .item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.distortions .card-num {
+.card-num {
   display: block;
   margin-bottom: 40px;
 
@@ -58,7 +54,7 @@
   transition: 0.2s;
 }
 
-.distortions .card-title {
+.card-title {
   margin-bottom: 4px;
 
   color: var(--primary);
@@ -72,9 +68,9 @@
   transition: 0.2s;
 }
 
-.distortions .card:hover .card-num,
-.distortions .card:hover .card-title,
-.distortions .card:hover .text {
+.card:hover .card-num,
+.card:hover .card-title,
+.card:hover .text {
   color: var(--white);
 }
 
