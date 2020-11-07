@@ -73,7 +73,7 @@ body {
 }
 
 .dark-theme-bg {
-  background-color: var(--brownt);
+  background-color: var(--brown);
 }
 
 .light-theme-name {
@@ -102,6 +102,9 @@ p {
 }
 
 .h1 {
+  position: relative;
+  z-index: 10;
+
   font-size: 72px;
 }
 
