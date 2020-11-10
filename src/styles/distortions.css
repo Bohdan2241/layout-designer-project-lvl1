@@ -1,9 +1,5 @@
 /* distortions */
 
-.distortions {
-  background-color: var(--primary-dark);
-}
-
 .distortions .section-inner {
   display: flex;
   flex-wrap: wrap;

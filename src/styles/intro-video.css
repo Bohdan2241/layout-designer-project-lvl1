@@ -1,20 +1,5 @@
 /* intro-video */
 
-.intro-video {
-  text-align: center;
-}
-
-.intro-video .section-inner {
-  bottom: -100px;
-  z-index: 1;
-
-  padding: 0;
-}
-
-.section-title {
-  margin-bottom: 30px;
-}
-
 .video-description {
   margin-bottom: 35px;
 
@@ -23,7 +8,7 @@
 
 .video {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto -200px;
 }
 
 /* /intro-video */

@@ -20,8 +20,6 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 50px;
-
-  background-color: var(--primary-dark);
 }
 
 .news-title {
