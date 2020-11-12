@@ -1,8 +1,6 @@
 /* header */
 
 .header {
-  z-index: 0;
-
   overflow: hidden;
 }
 
@@ -10,7 +8,6 @@
   position: absolute;
   top: 55px;
   right: -270px;
-  z-index: 5;
 
   height: 525px;
 }
@@ -18,10 +15,6 @@
 .wrapper {
   display: flex;
   margin-top: 225px;
-}
-
-.header .w50:nth-child(2) {
-  margin-left: 30px;
 }
 
 .header .text:first-child {

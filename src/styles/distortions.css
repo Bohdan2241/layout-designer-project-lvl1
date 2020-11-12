@@ -1,10 +1,12 @@
 /* distortions */
 
-.distortions .section-inner {
+.navigation {
+  margin-top: 100px;
+}
+
+.navigation-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 200px;
-  padding-bottom: 80px;
 }
 
 .item {
@@ -17,6 +19,10 @@
   margin-right: 0;
 }
 
+.item:nth-child(n+4) {
+  margin-bottom: 0;
+}
+
 .distortions-title {
   color: var(--white);
   font-size: 52px;
@@ -25,6 +31,8 @@
 }
 
 .card {
+  display: block;
+  height: 100%;
   padding: 24px;
 
   text-decoration: none;
@@ -58,7 +66,7 @@
   transition: 0.2s;
 }
 
-.distortions .text {
+.card .text {
   color: var(--text);
 
   transition: 0.2s;
