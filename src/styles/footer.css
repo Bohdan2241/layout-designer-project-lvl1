@@ -30,6 +30,11 @@
   line-height: 43px;
 }
 
+.email-form {
+  width: 100%;
+  max-width: 464px;
+}
+
 .wrap-input {
   display: flex;
   margin: 8px 0;
@@ -44,7 +49,7 @@
 .email-input {
   position: relative;
 
-  width: 394px;
+  width: 100%;
   padding: 13px 15px;
 
   font-size: 18px;
