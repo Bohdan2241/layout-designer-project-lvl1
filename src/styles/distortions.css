@@ -43,7 +43,6 @@
 }
 
 .card-num {
-  display: block;
   margin-bottom: 40px;
 
   color: var(--primary-dark);
@@ -62,15 +61,15 @@
   transition: 0.2s;
 }
 
-.card .text {
-  color: var(--text);
+.card-text {
+  color: var(--text-color);
 
   transition: 0.2s;
 }
 
 .card:hover .card-num,
 .card:hover .card-title,
-.card:hover .text {
+.card:hover .card-text {
   color: var(--white);
 }
 

@@ -13,14 +13,14 @@ html {
 body {
   margin: 0;
 
+  color: var(--text-color);
+
   font-size: 16px;
   font-family: var(--main-font);
   line-height: 1.6em;
 }
 
-.section-inner {
-  position: relative;
-
+.container {
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
@@ -66,12 +66,20 @@ body {
   margin-bottom: 10px;
 }
 
+.mb-15 {
+  margin-bottom: 15px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
 
+.mt-225 {
+  margin-top: 225px;
+}
+
 .light-bg-text {
-  color: var(--text);
+  color: var(--text-color);
 }
 
 .brown-bg-text {
@@ -80,6 +88,10 @@ body {
 
 .position-relative {
   position: relative;
+}
+
+.ov-hidden {
+  overflow: hidden;
 }
 
 .background-image {
@@ -161,8 +173,8 @@ p {
   font-size: 34px;
 }
 
-.ligh-bg-title {
-  color: var(--text);
+.light-bg-title {
+  color: var(--text-color);
 }
 
 .brown-bg-title {
@@ -182,7 +194,6 @@ p {
 }
 
 .content-name {
-  display: block;
   margin-bottom: 8px;
 
   font-size: 24px;
@@ -198,7 +209,6 @@ p {
   margin: 100px 0 20px;
   padding: 4px 8px;
 
-  font-weight: bold;
   text-transform: uppercase;
 }
 

@@ -1,24 +1,11 @@
 /* header */
 
-.header {
-  overflow: hidden;
-}
-
 .header-img {
   position: absolute;
   top: 55px;
   right: -270px;
 
   height: 525px;
-}
-
-.wrapper {
-  display: flex;
-  margin-top: 225px;
-}
-
-.header .text:first-child {
-  margin-bottom: 15px;
 }
 
 .header-btn {
